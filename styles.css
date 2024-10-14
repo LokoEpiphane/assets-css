@@ -1,0 +1,14 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.self-presentation {
+    flex: 1; /* Occupies less space */
+    margin-right: 20px; /* Space between sections */
+}
+
+.about-me {
+    flex: 2; /* Occupies more space */
+}
